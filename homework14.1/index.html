@@ -1,0 +1,30 @@
+
+    <!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>عدد تصادفی بین دو عدد</title>
+</head>
+<body>
+  <script>
+    
+    const num1 = parseInt(prompt("عدد اول را وارد کنید:"));
+    const num2 = parseInt(prompt("عدد دوم را وارد کنید:"));
+
+    
+    if (isNaN(num1) || isNaN(num2)) {
+      alert("لطفاً فقط عدد وارد کنید.");
+    } else {
+      
+      const min = Math.min(num1, num2);
+      const max = Math.max(num1, num2);
+
+     
+      const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+
+     
+      alert("عدد تصادفی بین " + min + " و " + max + " برابر است با: " + randomNumber);
+    }
+  </script>
+</body>
+</html>
