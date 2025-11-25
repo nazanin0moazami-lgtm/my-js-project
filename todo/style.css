@@ -1,0 +1,30 @@
+ body {
+   padding: 20px;
+ }
+
+ .todo-item {
+   margin: 5px 0;
+   padding: 5px;
+ }
+
+ .todo {
+   color: gray;
+   font-size: 24px;
+ }
+
+ .done {
+   color: green;
+   font-size: 24px;
+ }
+
+ .progress {
+   color: yellow;
+   font-size: 24px;
+ }
+
+ select,
+ input,
+ button {
+   margin: 5px;
+   padding: 5px;
+ }
